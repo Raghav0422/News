@@ -60,7 +60,7 @@ function App() {
       <Navbar title="TextUtils" mymode={mode} toggle={toggleFun} enableText={text} /*enableNewColo r={newtext} toggleNew={toggleNewFun} newmode={newmode}*//>
       <Alert alert={alert}/>
       <div className="container">
-        <TextForm heading="Enter your Text here" mymode={mode} showAlert={showAlert}/>
+        {/* <TextForm heading="Enter your Text here" mymode={mode} showAlert={showAlert}/> */}
         <Routes>
           <Route exact path="/about" element={<About />} />
           <Route exact path="/" element={<TextForm heading="Enter your Text here" mymode={mode} showAlert={showAlert}/>} />
