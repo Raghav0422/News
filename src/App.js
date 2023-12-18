@@ -1,7 +1,7 @@
 import './App.css';
+import NavBar from './components/NavBar.js';
+import News from './components/News.js';
 import React, {Component} from "react";
-import NavBar from '.components/NavBar;
-import News from '.components/News;
 
 export default class App extends Component{
   
@@ -14,5 +14,4 @@ export default class App extends Component{
     )
   }
 }
-
-export default App
+//export default App
